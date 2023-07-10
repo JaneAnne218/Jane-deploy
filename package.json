@@ -1,0 +1,32 @@
+{
+  "name": "jane-deploy",
+  "version": "1.0.0",
+  "description": "CI/CD server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git https://github.com/janeanne218/js-deploy.git"
+  },
+  "keywords": [
+    "ci",
+    "cd",
+    "deploy"
+  ],
+  "author": "zuoxiaobai",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.15.1",
+    "prettier": "3.0.0"
+  },
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0"
+  }
+}
