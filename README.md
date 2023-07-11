@@ -30,7 +30,7 @@
 
 2.1，安装 npm install eslint@7.32.0 --save-dev  
 2.2 npx eslint --init 按照只是一步步操作  
-![[1-eslint-init.png]]  
+![](./1-eslint-init.png)  
 选择了第二个，并且推荐我安装了：  
 eslint-plugin-vue@latest  
 2.3 npm install --save-dev --save-exact prettier  
