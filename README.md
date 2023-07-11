@@ -67,20 +67,12 @@ npm i -g jane-deploy
  这里因为\ 有转义作用，解决方法    
   1 C:\\Users\\haobing\\AppData\\Roaming\\npm    
   2 用两个反引号``包围``      
-
-  
- 
-
- 
- 
-
-
 # 在wsl-ubuntu 安装nginx
-sudo apt install nginx
+sudo apt install nginx  
 
-查看当前运行的程序 ps aux
-localhost:7777即可访问 http://172.28.9.198:7777 访问
-http://172.28.9.198/ 访问nginx
+查看当前运行的程序 ps aux  
+localhost:7777即可访问 http://172.28.9.198:7777 访问  
+http://172.28.9.198/ 访问nginx  
 
 
 
