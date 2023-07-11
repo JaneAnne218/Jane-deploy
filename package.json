@@ -1,6 +1,6 @@
 {
   "name": "jane-deploy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CI/CD server",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,9 @@
     "cd",
     "deploy"
   ],
+  "bin": {
+    "janedeploy": "./bin/janedeploy.js"
+  },
   "author": "zuoxiaobai",
   "license": "MIT",
   "devDependencies": {
@@ -25,6 +28,7 @@
     "prettier": "3.0.0"
   },
   "dependencies": {
+    "commander": "^11.0.0",
     "koa": "^2.14.2",
     "koa-router": "^12.0.0",
     "koa-static": "^5.0.0"

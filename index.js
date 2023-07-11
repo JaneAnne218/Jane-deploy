@@ -11,7 +11,8 @@ const KoaStatic = require("koa-static");
 const KoaRouter = require("koa-router");
 const path = require("path");
 
-
+class JaneDeploy {
+    start() {
 const app = new Koa();
 console.log(app)
 const router = new KoaRouter();
@@ -22,8 +23,11 @@ router.post("/user", (ctx) => {
   };
 });
 
-app.use(new KoaStatic(path.resolve() + "/frontend"));
+app.use(new KoaStatic(__dirname + "/frontend"));
 
 app.use(router.routes()).use(router.allowedMethods());
 
 app.listen("7777", () => console.log("服务监听 7777 端口"));
+    }
+}
+module.exports = JaneDeploy;
